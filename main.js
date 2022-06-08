@@ -37,10 +37,11 @@ juanita.aprobarCurso('Nuevo curso de SCSS con preprocesadores');
 
 class Student2 {
 
-    constructor({name, age, approvedCourses}){
+    constructor({email, name, age, approvedCourses}){
         this.name = name;
         this.age = age;
-        this.approvedCourses = approvedCourses;
+        this.email = email;
+        this.approvedCourses = !!approvedCourses ? approvedCourses : [];
     }
 
     aprobarCurso(newCourse){
@@ -52,7 +53,8 @@ const miguelito = new Student2(
     {
         name: 'Miguel', 
         age: 28, 
-        approvedCourses: ['Curso de analisis de negocio', 'Principios de visualización de datos']
+        approvedCourses: ['Curso de analisis de negocio', 'Principios de visualización de datos'],
+        email: "miguelito@gmail.com"
     }
 );
 
