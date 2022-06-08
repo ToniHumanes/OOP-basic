@@ -1,0 +1,19 @@
+
+
+Paradigmas
+- Estructurado
+- Orientado a objetos
+- Funcional
+
+los objetos literales !== objetos instanciales de los obj orientados a objetos.
+porque al crear un objeto literal "sin personalizar" tiene como prototipo, el prototipo dado por js, por ejemplo:
+
+
+Objetos literales:
+const obj = {}
+obj --> su prototype es Object.
+
+Intancias de prototipos:
+const student = new Studen("nombre","18");
+student --> su prototype es Student ( y tendrá sus propios métodos, propiedades, etc... según los hayamos definido).
+
