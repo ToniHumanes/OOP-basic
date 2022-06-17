@@ -17,3 +17,55 @@ Intancias de prototipos:
 const student = new Studen("nombre","18");
 student --> su prototype es Student ( y tendrá sus propios métodos, propiedades, etc... según los hayamos definido).
 
+Abstraccion:
+
+La abstracción consiste en aislar un elemento de su contexto o del resto de los elementos que lo acompañan.
+Podemos reducir la complejidad y permitir una implementación y diseño eficiente de los datos.
+
+Ventajas de uso:
+
+- Evitamos codigo duplicado, es decir, reusamos codigo.
+- Podemos crear múltiples instancias con una sola abstracción.
+- Al encapsular datos, los estamos protegiendo
+- Evitamos código a bajo nivel.
+- Podemos cambiar implementaciones en la clase, sin perjudicar su funcionamiento.
+
+¿Qué es encapsulamiento?
+Es guardar, proteger, guardar o limitar el acceso de cierto atributos y/o propiedades en nuestros prototipos y objetos.
+
+Cuando hablamos de **encapsulamiento **hablamos de:
+
+Esconder métodos y atributos 👻
+
+No permitir la alteración de métodos y atributos ❌
+
+Encapsulamiento en JavaScript
+
+No permitir la alteración de métodos y atributos ❌
+Formas de aplicar encapsulamiento en JavaScript
+
+Getters y setters 🖐
+
+Namespaces 🙂
+
+Object.defineProperties 🎈
+
+Módulo de ES6 🤝
+
+
+Herencia:
+
+La herencia nos permite crear “clases madre”, la cual servirá de molde para clases hijas, que compartirán sus métodos y atributos.
+Usamos la palabra reservada extends.
+
+Polimorfismo:
+
+Es como la herencia reloaded. Es como ‘La Herencia 2.0’. Es un pilar de la OOP. Lo que es importante es lo que se puede hacer con este: Permite a nuestras subclases cambiar o anular los comportamientos de los métodos y atributos del prototipo madre, de la clase madre. Aunque herede las propiedades, el polimorfismo permite cambiar su comportamiento.
+
+Tipos:
+
+1. Polimorfismo de Sobrecarga: ocurre cuando existen métodos con el mismo nombre y funcionalidad similar en clases totalmente independientes entre ellas. (C#, java).
+
+2. Polimorfismo Paramétrico: El polimorfismo paramétrico es la capacidad para definir varias funciones utilizando el mismo nombre, pero usando parámetros diferentes (nombre y/o tipo) - (C#, java).
+
+3. Polimorfismo de Inclusión (JS): La habilidad para redefinir por completo el método de una superclase en una subclase.
